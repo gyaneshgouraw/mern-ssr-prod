@@ -9,10 +9,9 @@ var cssnano = require('cssnano');
 
 module.exports = {
   devtool: 'hidden-source-map',
-
   entry: {
     app: [
-      './client/index.js',
+      'babel-polyfill', __dirname + "/client/index.js"
     ],
     vendor: [
       'react',
