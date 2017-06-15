@@ -628,6 +628,8 @@
 	// Import Selectors
 	
 	
+	var _ref2 = _jsx('h1', {}, void 0, 'Hello world');
+	
 	var PostListPage = function (_Component) {
 	  _inherits(PostListPage, _Component);
 	
@@ -661,7 +663,7 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      return _jsx('div', {}, void 0, _jsx(_PostCreateWidget2.default, {
+	      return _jsx('div', {}, void 0, _ref2, _jsx(_PostCreateWidget2.default, {
 	        addPost: this.handleAddPost,
 	        showAddPost: this.props.showAddPost
 	      }), _jsx(_PostList2.default, {
@@ -1255,7 +1257,7 @@
 	      var _this2 = this;
 	
 	      return _jsx('div', {}, void 0, this.state.isMounted && !window.devToolsExtension && process.env.NODE_ENV === 'development' && _ref, _jsx('div', {}, void 0, _jsx(_reactHelmet2.default, {
-	        title: 'MERN Starter - Blog App',
+	        title: 'MERN Starter GG - Blog App',
 	        titleTemplate: '%s - Blog App',
 	        meta: [{ charset: 'utf-8' }, {
 	          'http-equiv': 'X-UA-Compatible',
@@ -1656,12 +1658,14 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var _ref = _jsx(_reactIntl.FormattedMessage, {
-	  id: 'by'
+	  id: 'byyyyyyyyyyy'
 	});
 	
 	var _ref2 = _jsx(_reactIntl.FormattedMessage, {
 	  id: 'deletePost'
 	});
+	
+	var _ref3 = _jsx('p', {}, void 0, 'Hello World');
 	
 	function PostListItem(props) {
 	  return _jsx('div', {
@@ -1681,7 +1685,7 @@
 	    onClick: props.onDelete
 	  }, void 0, _ref2)), _jsx('hr', {
 	    className: _PostListItem2.default.divider
-	  }));
+	  }), _ref3);
 	}
 	
 	exports.default = PostListItem;
